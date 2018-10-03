@@ -1,0 +1,9 @@
+<body>
+    <form enctype='multipart/form-data' method="POST" action="/upload">
+        <input type="file" name="image"/>
+        <button type='submit'>Upload</button>
+    </form>
+    <p>
+        <%= typeof msg!='undefined'?msg:'' %>
+    </p>
+</body>
